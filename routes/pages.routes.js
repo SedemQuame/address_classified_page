@@ -13,8 +13,11 @@ module.exports = app => {
    app.route(`/contact`)
        .get(pages.contact);
 
-//     // contact us page
-//    app.route(`/team`)
-//         .get(pages.team);
+    // project page
+   app.route(`/team`)
+        .get(pages.team);
+
+    app.route(`/projects`)
+        .get(pages.project);
 
 };

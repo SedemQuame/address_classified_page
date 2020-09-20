@@ -10,3 +10,11 @@ exports.services = (request, response, next) => {
 exports.contact = (request, response, next) => {
     response.render('contact.views.ejs', {msg: null});
 };
+
+exports.team = (request, response, next) => {
+    response.render('team.views.ejs', {msg: null});
+};
+
+exports.project = (request, response, next) => {
+    response.render('project.views.ejs', {msg: null});
+};
